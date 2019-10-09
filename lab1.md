@@ -59,7 +59,7 @@
 - create index index_documents_on_type on documents(type)
 - insert into documents (select * from documents limit 100000)
 > **duration:** ~5s
-#### high cardinality: "column supplier_ico"
+#### high cardinality: column "supplier_ico"
 - create index index_documents_on_supplier_ico on documents(supplier_ico)
 - insert into documents (select * from documents limit 100000)
 > **duration:** ~2.5s
