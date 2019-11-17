@@ -8,6 +8,7 @@
 	select * from fact limit 10
 	
 >result:
+
 		0	1
 		1	1
 		2	2
@@ -28,6 +29,7 @@
 	select por, n from fibonacci limit 20
 	
 >result:
+
 		1	1
 		2	2
 		3	3
@@ -58,6 +60,7 @@
 	select name from product_r
 
 > result:
+
 		"armrest"
 		"metal leg"
 		"metal rod"
@@ -80,6 +83,7 @@
 	select name, hop from stops_r where hop != 0
 	
 >result:
+
 		"Chatam Sófer"	1
 		"Park kultúry"	2
 		"Lafranconi"	3
